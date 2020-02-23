@@ -14,13 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Master\Menu.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Perfil1.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Xamarin.xaml">
+    <Folder Include="Controles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Menu\Master.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

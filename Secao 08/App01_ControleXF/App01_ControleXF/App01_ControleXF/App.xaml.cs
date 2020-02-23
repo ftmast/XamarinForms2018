@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace App02_Xamarin
+namespace App01_ControleXF
 {
     public partial class App : Application
     {
@@ -11,11 +11,11 @@ namespace App02_Xamarin
         {
             InitializeComponent();
 
-            MainPage = new App02_Xamarin.Master.Menu();
+            MainPage = new Menu.Master();
         }
 
         protected override void OnStart()
-        {   
+        {
             // Handle when your app starts
         }
 
